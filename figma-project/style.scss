@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    header{
+        height: 10%;
+        display: flex;
+        .text-container{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+    }
+    main{
+        height: 90%;
+        .main-content{
+            height: 930px;
+            width: 60%;
+            height: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+            .main-element1,.main-element2,.main-element3,.main-element4,.main-element5,.main-element6,.main-element7,.main-element8,.main-element9{
+                height: 118px;
+                width: 250px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: {
+                    width: 3px;
+                    style: solid;
+                    color: black;
+                    radius: 10px;
+                }
+                .shadow-color1,.shadow-color2{
+                    height: 39px;
+                    width: 39px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: {
+                        width: 3px;
+                        style: solid;
+                        color: black;
+                        radius: 10px;
+                    }
+                    .color1,.color2{
+                        height: 30px;
+                        width: 30px;
+                        background: red;
+                    }
+                }
+            }
+            .main-element1{
+                box-shadow: -10px 10px 40px blue,10px 10px 40px red;
+                .shadow-color2{
+                    .color2{
+                        background: blue;
+                    }
+                }
+            }
+            .main-element2{
+                box-shadow: -10px 10px 40px lime, 10px 10px 40px aqua;
+             .shadow-color1{
+                    .color1{
+                        background: lime;
+                    }
+                }
+                .shadow-color2{
+                    .color2{
+                        background: aqua;
+                    }
+                }
+            }
+            .main-element3{
+                box-shadow: -10px 10px 40px blue, 10px 10px 40px aqua;
+             .shadow-color1{
+                    .color1{
+                        background: blue;
+                    }
+                }
+                .shadow-color2{
+                    .color2{
+                        background: aqua;
+                    }
+                }
+            }
+            .main-element4{
+                box-shadow: -10px 10px 40px rgb(177, 18, 93), 10px 10px 40px aqua;
+                .shadow-color1{
+                    .color1{
+                        background: rgb(177, 18, 93);
+                    }
+                }
+                .shadow-color2{
+                    .color2{
+                        background: aqua;
+                    }
+                }
+            }
+            .main-element5{
+                box-shadow: -10px 10px 40px aqua, 10px 10px 40px rgb(149,30, 149);
+                .shadow-color1{
+                    .color1{
+                        background: aqua;
+                    }
+                }
+                .shadow-color2{
+                    .color2{
+                        background: rgb(149, 30, 149);
+                    }
+                }
+            }
+            .main-element6{
+                box-shadow: -10px 10px 40px orange, 10px 10px 40px yellow;
+                .shadow-color1{
+                    .color1{
+                        background: orange;
+                    }
+                }
+                .shadow-color2{
+                    .color2{
+                        background: yellow;
+                    }
+                }
+            }
+            .main-element7{
+                box-shadow: -10px 10px 40px rgb(177, 18, 93), 10px 10px 40px orange;
+                .shadow-color1{
+                    .color1{
+                        background: rgb(177, 18, 93);
+                    }
+                }
+                .shadow-color2{
+                    .color2{
+                        background: orange;
+                    }
+                }
+            }
+            .main-element8{
+                box-shadow: -10px 10px 40px rgb(54, 24, 155), 10px 10px 40px rgb(174, 26, 149);
+                .shadow-color1{
+                    .color1{
+                        background: rgb(54, 24, 155);
+                    }
+                }
+                .shadow-color2{
+                    .color2{
+                        background: rgb(174, 26, 149);
+                    }
+                }
+            }
+            .main-element9{
+                box-shadow: -10px 10px 40px rgb(149, 30, 149), 10px 10px 40px rgb(102, 189, 189);
+                .shadow-color1{
+                    .color1{
+                        background: rgb(149, 30, 149);
+                    }
+                }
+                .shadow-color2{
+                    .color2{
+                        background: rgb(102, 189, 189);
+                    }
+                }
+            }
+        }
+    }
+}

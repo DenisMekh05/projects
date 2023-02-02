@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+body header {
+  height: 10%;
+  display: flex;
+}
+body header .text-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+body main {
+  height: 90%;
+}
+body main .main-content {
+  height: 930px;
+  width: 60%;
+  height: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+body main .main-content .main-element1, body main .main-content .main-element2, body main .main-content .main-element3, body main .main-content .main-element4, body main .main-content .main-element5, body main .main-content .main-element6, body main .main-content .main-element7, body main .main-content .main-element8, body main .main-content .main-element9 {
+  height: 118px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+body main .main-content .main-element1 .shadow-color1, body main .main-content .main-element1 .shadow-color2, body main .main-content .main-element2 .shadow-color1, body main .main-content .main-element2 .shadow-color2, body main .main-content .main-element3 .shadow-color1, body main .main-content .main-element3 .shadow-color2, body main .main-content .main-element4 .shadow-color1, body main .main-content .main-element4 .shadow-color2, body main .main-content .main-element5 .shadow-color1, body main .main-content .main-element5 .shadow-color2, body main .main-content .main-element6 .shadow-color1, body main .main-content .main-element6 .shadow-color2, body main .main-content .main-element7 .shadow-color1, body main .main-content .main-element7 .shadow-color2, body main .main-content .main-element8 .shadow-color1, body main .main-content .main-element8 .shadow-color2, body main .main-content .main-element9 .shadow-color1, body main .main-content .main-element9 .shadow-color2 {
+  height: 39px;
+  width: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+body main .main-content .main-element1 .shadow-color1 .color1, body main .main-content .main-element1 .shadow-color1 .color2, body main .main-content .main-element1 .shadow-color2 .color1, body main .main-content .main-element1 .shadow-color2 .color2, body main .main-content .main-element2 .shadow-color1 .color1, body main .main-content .main-element2 .shadow-color1 .color2, body main .main-content .main-element2 .shadow-color2 .color1, body main .main-content .main-element2 .shadow-color2 .color2, body main .main-content .main-element3 .shadow-color1 .color1, body main .main-content .main-element3 .shadow-color1 .color2, body main .main-content .main-element3 .shadow-color2 .color1, body main .main-content .main-element3 .shadow-color2 .color2, body main .main-content .main-element4 .shadow-color1 .color1, body main .main-content .main-element4 .shadow-color1 .color2, body main .main-content .main-element4 .shadow-color2 .color1, body main .main-content .main-element4 .shadow-color2 .color2, body main .main-content .main-element5 .shadow-color1 .color1, body main .main-content .main-element5 .shadow-color1 .color2, body main .main-content .main-element5 .shadow-color2 .color1, body main .main-content .main-element5 .shadow-color2 .color2, body main .main-content .main-element6 .shadow-color1 .color1, body main .main-content .main-element6 .shadow-color1 .color2, body main .main-content .main-element6 .shadow-color2 .color1, body main .main-content .main-element6 .shadow-color2 .color2, body main .main-content .main-element7 .shadow-color1 .color1, body main .main-content .main-element7 .shadow-color1 .color2, body main .main-content .main-element7 .shadow-color2 .color1, body main .main-content .main-element7 .shadow-color2 .color2, body main .main-content .main-element8 .shadow-color1 .color1, body main .main-content .main-element8 .shadow-color1 .color2, body main .main-content .main-element8 .shadow-color2 .color1, body main .main-content .main-element8 .shadow-color2 .color2, body main .main-content .main-element9 .shadow-color1 .color1, body main .main-content .main-element9 .shadow-color1 .color2, body main .main-content .main-element9 .shadow-color2 .color1, body main .main-content .main-element9 .shadow-color2 .color2 {
+  height: 30px;
+  width: 30px;
+  background: red;
+}
+body main .main-content .main-element1 {
+  box-shadow: -10px 10px 40px blue, 10px 10px 40px red;
+}
+body main .main-content .main-element1 .shadow-color2 .color2 {
+  background: blue;
+}
+body main .main-content .main-element2 {
+  box-shadow: -10px 10px 40px lime, 10px 10px 40px aqua;
+}
+body main .main-content .main-element2 .shadow-color1 .color1 {
+  background: lime;
+}
+body main .main-content .main-element2 .shadow-color2 .color2 {
+  background: aqua;
+}
+body main .main-content .main-element3 {
+  box-shadow: -10px 10px 40px blue, 10px 10px 40px aqua;
+}
+body main .main-content .main-element3 .shadow-color1 .color1 {
+  background: blue;
+}
+body main .main-content .main-element3 .shadow-color2 .color2 {
+  background: aqua;
+}
+body main .main-content .main-element4 {
+  box-shadow: -10px 10px 40px rgb(177, 18, 93), 10px 10px 40px aqua;
+}
+body main .main-content .main-element4 .shadow-color1 .color1 {
+  background: rgb(177, 18, 93);
+}
+body main .main-content .main-element4 .shadow-color2 .color2 {
+  background: aqua;
+}
+body main .main-content .main-element5 {
+  box-shadow: -10px 10px 40px aqua, 10px 10px 40px rgb(149, 30, 149);
+}
+body main .main-content .main-element5 .shadow-color1 .color1 {
+  background: aqua;
+}
+body main .main-content .main-element5 .shadow-color2 .color2 {
+  background: rgb(149, 30, 149);
+}
+body main .main-content .main-element6 {
+  box-shadow: -10px 10px 40px orange, 10px 10px 40px yellow;
+}
+body main .main-content .main-element6 .shadow-color1 .color1 {
+  background: orange;
+}
+body main .main-content .main-element6 .shadow-color2 .color2 {
+  background: yellow;
+}
+body main .main-content .main-element7 {
+  box-shadow: -10px 10px 40px rgb(177, 18, 93), 10px 10px 40px orange;
+}
+body main .main-content .main-element7 .shadow-color1 .color1 {
+  background: rgb(177, 18, 93);
+}
+body main .main-content .main-element7 .shadow-color2 .color2 {
+  background: orange;
+}
+body main .main-content .main-element8 {
+  box-shadow: -10px 10px 40px rgb(54, 24, 155), 10px 10px 40px rgb(174, 26, 149);
+}
+body main .main-content .main-element8 .shadow-color1 .color1 {
+  background: rgb(54, 24, 155);
+}
+body main .main-content .main-element8 .shadow-color2 .color2 {
+  background: rgb(174, 26, 149);
+}
+body main .main-content .main-element9 {
+  box-shadow: -10px 10px 40px rgb(149, 30, 149), 10px 10px 40px rgb(102, 189, 189);
+}
+body main .main-content .main-element9 .shadow-color1 .color1 {
+  background: rgb(149, 30, 149);
+}
+body main .main-content .main-element9 .shadow-color2 .color2 {
+  background: rgb(102, 189, 189);
+}/*# sourceMappingURL=style.css.map */
