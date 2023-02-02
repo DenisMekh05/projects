@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Josefin+Sans&family=Nerko+One&family=Open+Sans:ital@1&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    height: 100vh;
+    .website{
+        // header
+        header{
+            margin: 2% 0;
+            .container{
+                .header-content{
+                    .logo{
+                        width: 10%;
+                    }
+                }
+            }
+        }
+        // main
+        main{
+            margin-bottom: 7%;
+            .container{
+                width: 80%;
+                margin: 0 auto;
+                .main-content{
+                    // how to watch a movie
+                    .main-section{
+                        display: flex;
+                        justify-content: space-between;
+                        .main-section-text,.main-section-img{
+                            width: 50%;
+                        }
+                        .main-section-text{
+                            .main-section-logos{
+                                display: flex;
+                                justify-content: space-between;
+                                width: 80%;
+                                gap: 5%;
+                                align-items: center;
+                                div{
+                                    display: flex;
+                                }
+                                p{
+                                    font-size: 22px;
+                                    width: 80%;
+                                }
+                                img{
+                                    height: 20%;
+                                    width: 20%;
+                                }
+                            }
+                            h1{
+                                font-size: 80px;
+                            }
+                            p{
+                                font-size: 20px;
+                            }
+                        }
+                        .main-section-img{
+                            display: flex;
+                            justify-content: center;
+                            img{
+                                width: 50%;
+                            }
+                        }
+                    }
+                    // poem
+                    .poem-section{
+                        display: flex;
+                        justify-content: center;
+                        .poem{
+                            padding: 3%;
+                            background: #1d4681;
+                            color: white;
+                            font-size: 2em;
+                            margin: 7% 0;
+                            border-radius: 5px;
+                            .poem-text{
+                                text-shadow: 0 4px 4px black;
+                            }
+                            .autor{
+                                font-size: 0.6em;
+                                text-align: end;
+                            }
+                        }
+                    }
+                    // programm course
+                    .course-programm{
+                        h2{
+                            font-size: 4em;
+                            margin-bottom: 5%;
+                        }                        
+                        .cards{
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+                            grid-gap: 5%;
+                            .card{
+                                border-radius: 30px;
+                                box-shadow: 3px 3px 3px;
+                                padding-left: 10px;
+                                img{
+                                    width: 100%;
+                                }
+                                h2{
+                                    font-size: 30px;
+                                }
+                                p{
+                                    font-size: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            .container{
+                background: #9dc9c7;
+                width: 100%;
+                padding-left: 7%;
+                padding-right: 30%;
+                .footer-content{
+                    padding: 15% 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .course-start{
+                        margin-bottom: 5%;
+                        margin-left: 10%;
+                        font-size: 2.5em;
+                    }
+                    .course-cost{
+                        margin-bottom: 5%;
+                        margin-left: 10%;
+                        h2{
+                           font-size: 2.7em;
+                        }
+                    }
+                    .about-course{
+                        margin-bottom: 5%;
+                        .text1,.text2{
+                            font-size: 1.2em;
+                            .head-p{
+                                font-size: 1.5em;
+                                margin-bottom: 3%;
+                            }
+                        }
+                        margin-left: 10%;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }
+}
